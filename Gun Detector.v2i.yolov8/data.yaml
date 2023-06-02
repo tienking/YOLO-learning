@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['handgun']
+
+roboflow:
+  workspace: tien-king-pw43a
+  project: gun-detector-f6gbp
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/tien-king-pw43a/gun-detector-f6gbp/dataset/2
